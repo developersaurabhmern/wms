@@ -1,0 +1,63 @@
+{
+  "name": "firstapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "date-fns": "^2.17.0",
+    "dateformat": "^4.5.1",
+    "hashmap": "^2.4.0",
+    "localStorage": "^1.0.4",
+    "mdbreact": "^5.0.1",
+    "moment": "^2.29.1",
+    "nodemailer": "^6.6.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.1.1",
+    "react-confirm-alert": "^2.7.0",
+    "react-data-table-component": "^7.4.5",
+    "react-dom": "^17.0.1",
+    "react-flash-message": "^1.0.7",
+    "react-loader-spinner": "^5.0.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.2",
+    "react-select": "^4.1.0",
+    "react-select-picker": "0.0.7",
+    "react-table": "^7.6.3",
+    "react-table-6": "^6.11.0",
+    "react-toastify": "^8.1.0",
+    "select": "^1.1.2",
+    "styled-components": "^5.3.3",
+    "underscore": "^1.13.1",
+    "validator": "^13.7.0",
+    "xlsx": "^0.16.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "bootstrap-loader": "^3.0.4",
+    "create-react-class": "^15.7.0",
+    "jquery": "^3.5.1",
+    "tether": "^1.4.7"
+  }
+}

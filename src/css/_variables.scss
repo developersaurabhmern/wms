@@ -1,0 +1,76 @@
+$white:  #fff;
+$color1: #2e856e;
+$color2: #f64d52;
+$color3: #083232;
+$bgcolor:#fbfeff;
+$bgcolor2:#e4edef;
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.myBtn {
+    display: inline-block;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: $white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    opacity: .8;
+    i{
+      margin-left: 20px;
+    }
+    &:hover{
+        color: $white;
+        opacity: 1;
+    }
+  }
+  .mtBtnColor1{
+    background-color: $color1;
+  }
+  .mtBtnColor2{
+    background-color: $color2;
+  }
+
+  .scribble-1{
+    position: absolute;
+    left: 23px;
+    top: 122px;
+    right: auto;
+    bottom: auto;
+    width: 60px;
+  }
+  .scribble-2 {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 86px;
+    bottom: -28px;
+    z-index: 20;
+    width: 100px;
+}

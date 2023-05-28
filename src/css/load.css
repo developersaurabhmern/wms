@@ -1,0 +1,9 @@
+
+.loader{
+	text-align: center;
+  display: "none";
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
